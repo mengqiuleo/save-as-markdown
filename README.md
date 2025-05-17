@@ -1,33 +1,16 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# save-as-markdown
+一个 Chrome 插件，将指定网页保存为 markdown 格式
 
-## Getting Started
+**目前支持的网页**
+- 知乎
+- 掘金
+- CSDN
+- 微信公众号
 
-First, run the development server:
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+![](./public/screen.jpg)
+点击复制后，markdown 格式的文档将会被复制到剪切板
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+<br />
+目前该插件未发布到插件市场，需要将根目录下的 save-as-markdown.zip 下载，然后将解压后的文件导入到浏览器扩展程序页面
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
-
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
-
-## Making production build
-
-Run the following:
-
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
