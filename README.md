@@ -12,4 +12,4 @@
 点击复制后，markdown 格式的文档将会被复制到剪切板
 
 <br />
-目前该插件未发布到插件市场，需要将根目录下的 [save-as-markdown.zip](https://github.com/mengqiuleo/save-as-markdown/blob/main/save-as-markdown.zip) 下载，然后将解压后的文件导入到浏览器扩展程序页面
+目前该插件未发布到插件市场，需要将根目录下的 save-as-markdown.zip 下载，然后将解压后的文件导入到浏览器扩展程序页面
