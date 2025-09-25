@@ -27,7 +27,7 @@ function IndexPopup() {
       style={{
         padding: 16
       }}>
-      <button onClick={handleCopyMarkdown}>copy as markdown</button>
+      <button onClick={handleCopyMarkdown}>copy as markdown🚀</button>
       <p>{status}</p>
     </div>
   )
